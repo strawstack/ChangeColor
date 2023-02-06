@@ -1,3 +1,3 @@
 # Change Color
 
-A web template.
+Change the color of an image from black to anything else with CSS only.
