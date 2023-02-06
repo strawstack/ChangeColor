@@ -8,7 +8,47 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>Web Template</div>
+
+        <img src="black.png" />
+
+        <div class="border">
+            <img src="black.png" class="target-img" />
+        </div>
+        
+        <br>
+
+        <div class="row invert">
+            <div>
+                <div class="label">invert</div>
+                <div class="value"><span>60</span>%</div>
+            </div>
+            <input type="range" min="0" max="100" value="60" step="1">
+        </div>
+
+        <div class="row sepia">
+            <div>
+                <div class="label">sepia</div>
+                <div class="value"><span>100</span>%</div>
+            </div>
+            <input type="range" min="0" max="100" value="100" step="1">
+        </div>
+
+        <div class="row hueRotate">
+            <div>
+                <div class="label">hueRotate</div>
+                <div class="value"><span>0</span>deg</div>
+            </div>
+            <input type="range" min="0" max="360" value="0" step="1">
+        </div>
+
+        <div class="row saturate">
+            <div>
+                <div class="label">saturate</div>
+                <div class="value"><span>100</span>%</div>
+            </div>
+            <input type="range" min="0" max="100" value="100" step="1">
+        </div>
+    
         <script src="script.js"></script>
     </body>
 </html>
